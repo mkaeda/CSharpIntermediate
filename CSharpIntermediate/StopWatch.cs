@@ -7,7 +7,7 @@ namespace CSharpIntermediate
     class StopWatch
     {
         private DateTime _start;
-        private Boolean started;
+        private bool started = false;
         
         public void Start()
         {
