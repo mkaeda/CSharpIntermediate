@@ -18,7 +18,7 @@ namespace CSharpIntermediate
             _activities.Add(activity);
         }
 
-        public void Execute()
+        public void Run()
         {
             foreach (var activity in _activities)
                 activity.Execute();
